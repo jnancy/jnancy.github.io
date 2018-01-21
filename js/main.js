@@ -1,5 +1,5 @@
 var options = {
-  strings: ["<h3>Computer Engineering Student.</h3>", "<h3>Web Developer.</h3>"],
+  strings: ["Computer Engineering Student.", "Web Developer."],
   typeSpeed: 50,
   backSpeed: 40,
   loop: true,
