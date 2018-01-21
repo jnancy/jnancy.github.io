@@ -1,9 +1,7 @@
 ol,ul{list-style:none;}
 a{text-decoration: none; color: inherit;}
 html, body {margin: 0;  padding: 0;}
-#name{ padding-top: 80px; color: white; width: 100%; text-align:center; font-size: 35pt; font-weight: 100; font-family: helvetica, sans-serif;}
-
-
+#name{ padding-top: 130px; color: white; width: 100%; text-align:center; font-size: 35pt; font-weight: 100; font-family: helvetica, sans-serif;}
 .cover{
   background-image: url("../assets/cover.jpg");
   height: 400px;
