@@ -10,3 +10,11 @@ var options = {
 }
 
 var typed = new Typed(".element", options);
+
+$(document).ready(function(){
+
+$("#skillbar_php").animate({width:'85%'},1500);
+$("#skillbar_asp").animate({width:'55%'},1500);
+$("#skillbar_jsp").animate({width:'75%'},1500);
+
+});
