@@ -1,4 +1,4 @@
-#Personal Website :octocat:
+# Personal Website :octocat:
 
-###Libraries used:
+### Libraries used:
 - [typed.js](https://github.com/mattboldt/typed.js)
