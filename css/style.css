@@ -15,14 +15,14 @@ html, body {margin: 0;  padding: 0;}
 }
 
 #typed-strings{
-  height: 30px;
-}
-.element{
   width: 100%;
+  vertical-align: center;
+  height: 30px;
+  text-align: center;
   font-weight: 100;
+  font-size: 20pt;
   font-family: sans-serif;
   color: white;
-  text-align: center;
 }
 
 .menu{font-family: helvetica, sans-serif;
