@@ -27,4 +27,18 @@ figcaption{
   font-size: 12pt;
   font-family: helvetica;
   color: #333;
+  margin-bottom: 5px;
+}
+.tags{
+  font-family: helvetica;
+  font-weight: 100;
+  font-size: 11pt;
+  color: #FFF;
+  cursor:default;
+}
+.tags span{
+  background-color: #999;
+  padding: 3px 5px;
+  margin-right: 4px;
+  border-radius: 3px;
 }
