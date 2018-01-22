@@ -21,7 +21,7 @@ div#columns figure img {
   margin-bottom: 5px;
 }
 figure:not(:hover){
-  opacity: 0.8;
+  opacity: 0.9;
 }
 figcaption{
   font-size: 12pt;
