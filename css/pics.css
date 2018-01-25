@@ -5,7 +5,7 @@
   width: 90%;
   max-width: 1000px;
   margin: 20px auto;
-  margin-top: -940px;
+  margin-top: -1240px;
 }
 div#columns figure {
   background: #FFF;
@@ -41,4 +41,11 @@ figcaption{
   padding: 3px 5px;
   margin-right: 4px;
   border-radius: 3px;
+}
+.deets{
+  margin-top: 10px;
+  font-family: helvetica;
+  color: #777;
+  font-weight: 100;
+  font-size: 11pt;
 }
