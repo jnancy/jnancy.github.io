@@ -1,0 +1,54 @@
+#container {
+  position: relative;
+  width: 100%;
+  height: 340px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+#container div {
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  opacity: 0;
+  background-image: url(../assets/claw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#container div.bottom {
+  opacity: 1;
+  background-image: url(../assets/clawpic.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#container div.top {
+  -webkit-animation: anim 6s infinite alternate;
+  animation: anim 6s infinite alternate;
+}
+@-webkit-keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  36.36% {
+    opacity: 0;
+  }
+  63.63% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+  36.36% {
+    opacity: 0;
+  }
+  63.63% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -5,7 +5,7 @@
   width: 90%;
   max-width: 1000px;
   margin: 20px auto;
-  margin-top: -1240px;
+  margin-top: -1595px;
 }
 div#columns figure {
   background: #FFF;
@@ -21,7 +21,7 @@ div#columns figure img {
   margin-bottom: 5px;
 }
 figure:not(:hover){
-  opacity: 0.9;
+  opacity: 0.75;
 }
 figcaption{
   font-size: 12pt;

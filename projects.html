@@ -4,6 +4,7 @@
     <title>Nancy Jiang</title>
       <link rel = "stylesheet" href = "css/style.css">
       <link rel = "stylesheet" href = "css/pics.css">
+      <link rel = "stylesheet" href = "css/slideshow.css"
       <script src="js/typed/typed.js"></script>
       <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
@@ -32,24 +33,31 @@
           <img src="https://offthemerrygoround.files.wordpress.com/2013/08/hiking-trail-full-image.jpg" alt>
           <figcaption><a href = "http://github.com/jnancy/hykr">Hykr</a></figcaption>
           <div class="tags"><span>Java</span><span>Android Studio</span></div>
+          <div class= "deets">A social hiking app developed for NWHacks 2018. I learned Android development
+            and UI design during the hackathon. My team has decided to keep working on the app!
+            I am currently looking into developing an Azure-based backend.</div>
         </figure>
         <figure>
-          <img src="assets/database.png" alt>
+          <img src="assets/Yelp.png" alt>
           <figcaption><a href = "http://github.com/jnancy/Database-Queries-and-Statistical-Learning">Database Design</a></figcaption>
           <div class="tags"><span>Java8</span><span>JSON</span><span>ANTLR</span></div>
+          <div class = "deets"> Implementation of a Yelp database, with a multi-threaded server
+            supporting structured queries. Employs statistical learning techniques to cluster
+            restaurants and predict user ratings. </div>
         </figure>
         <figure>
-          <img src="assets/claw.png" alt>
+          <div id="container">
+            <div class="bottom"></div>
+            <div class="top"></div>
+          </div>
           <figcaption>Semi-Autonomous Claw</figcaption>
           <div class="tags"><span>Arduino</span><span>SOLIDWORKS</span></div>
+          <div class = "deets">For a course project, our team designed a semi-autonomous claw that
+            uses sonar to detect objects. I wrote and debugged
+            the Arduino code and helped build the actual claw.</div>
         </figure>
         <figure>
-          <img src="assets/sos.png" alt>
-          <figcaption><a href = "http://github.com/jnancy/SOSGame">SOS Game</a></figcaption>
-          <div class="tags"><span>C</span></div>
-        </figure>
-        <figure>
-          <img src="../pics/photoalbum/6.jpg" alt>
+          <img src="https://ftc-ubc.s3.amazonaws.com/uploads/project/avatar/9/moonwalk.jpg" alt>
           <figcaption><a href = "http://github.com/CodeTheChangeUBC/buddyapp">Moonwalk</a></figcaption>
           <div class="tags"><span>Node.js</span><span>postgreSQL</span></div>
           <div class="deets"> Moonwalk is a mobile application that will help UBC students form
@@ -61,6 +69,16 @@
           <img src="assets/social.png" alt>
           <figcaption><a href = "http://github.com/jnancy/WebDev">Social Network Design</a></figcaption>
           <div class="tags"><span>HTML</span><span>CSS</span><span>Javascript</span><span>PHP</span></div>
+          <div class="deets">A design of a sample social network’s sign-up, log-in, and home pages. I also started looking into running
+            a Tomcat server and integrating PHP into the pages.</div>
+        </figure>
+        <figure>
+          <img src="assets/sos.png" alt>
+          <figcaption><a href = "http://github.com/jnancy/SOSGame">SOS Game</a></figcaption>
+          <div class="tags"><span>C</span></div>
+          <div class = "deets">A small project built during an otherwise uneventful train ride, using C. Two people can
+          play a game of SOS, a game similar to tic-tac-toe (in that both were integral parts of my childhood)
+          but more complex and fun. </div>
         </figure>
       </div>
     </div>
@@ -70,7 +88,6 @@
     <script src="js/particles/particles.js"></script>
     <script src="js/app.js"></script>
 
-    <section class="footer"> © Nancy Jiang 2018</section>
-    <script src="js/main.js"></script>
+    <section class="footer"> Made with ♥ </br> <a href="http://github.com/jnancy/jnancy.github.io"> See project on Github </a></section>
 </body>
 </html>

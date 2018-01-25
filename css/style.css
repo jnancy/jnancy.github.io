@@ -60,13 +60,14 @@ body{position: relative; height: 100%;}
 .section{
   position: relative;
 }
-.footer {position: absolute; margin-top: -10px;padding: 0; font-family: helvetica, sans-serif; font-weight: lighter;font-size: 10pt; color: grey; width:100%; text-align: center;}
+.footer {cursor: default;position: absolute; margin-top: -7px;padding: 0; font-family: helvetica, sans-serif; font-weight: lighter;font-size: 10pt; color: grey; width:100%; text-align: center;}
+.footer a{background-color: #999; padding: 3px; border-radius: 4px; color: white}
 #icon{width: 25px;vertical-align: middle;}
 #idk{margin-top:-80px;}
 #cover2{height: 130px; width: 100%; background-attachment: fixed; background-image: url("../assets/cover2.jpg");}
 #name2{padding-top: 34px;}
 #menu1{border-bottom: 1px solid #CCC;}
-#menu2{margin-top: -12px; border-bottom: 1px solid #CCC; background-color: #fff;}
+#menu2{margin-top: -12px; border-bottom: 1px solid #CCC; background-color: #FFF;}
 #menume{height: auto; width: 70%; margin-left: auto; margin-right: auto; margin-bottom: 30pt;}
 #profpic{margin: 10px; margin-bottom: 40px; margin-left: 50px; width: 200px;}
 #spacelol{padding-bottom: 10px; color: white;}
@@ -81,8 +82,8 @@ body{position: relative; height: 100%;}
 }
 #particles-js{
   width: 100%;
-  height: 1300px;
-  background-color: #EEE;
+  height: 1630px;
+  background-color: #EFEFEF;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
