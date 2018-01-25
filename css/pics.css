@@ -6,6 +6,7 @@
   max-width: 1000px;
   margin: 20px auto;
   margin-top: -1595px;
+  margin-bottom: 70px;
 }
 div#columns figure {
   background: #FFF;
@@ -20,14 +21,21 @@ div#columns figure img {
   padding-bottom: 15px;
   margin-bottom: 5px;
 }
+/*
 figure:not(:hover){
-  opacity: 0.75;
-}
+  filter: grayscale();
+}*/
+/*figure:hover{
+  border-radius: 20px;
+}*/
 figcaption{
   font-size: 12pt;
   font-family: helvetica;
   color: #333;
   margin-bottom: 5px;
+}
+figcaption:hover{
+  color: #67AEE7;
 }
 .tags{
   font-family: helvetica;
@@ -45,7 +53,7 @@ figcaption{
 .deets{
   margin-top: 10px;
   font-family: helvetica;
-  color: #777;
+  color: #555;
   font-weight: 100;
   font-size: 11pt;
 }
