@@ -45,14 +45,13 @@ body{position: relative; height: 100%;}
   width: fit-content;
 }
 .menu li{
-  color: #444;
   display: inline-block;
   font-weight: 300;
   font-size: 15pt;
   margin-top: 10px;
   margin-right: 35px;
 }
-.menu li.on{color: #67AEE7;}
+.menu li.on{color: #888;}
 .menu li a:hover{
   color: #67AEE7;
   cursor: pointer;
@@ -60,7 +59,7 @@ body{position: relative; height: 100%;}
 .section{
   position: relative;
 }
-.hi{font-size: 16pt; margin-bottom: 10px;}
+.hi{font-size: 16pt; margin-bottom: 10px; color: #444}
 .aboutme{margin-left: 20px; width: 50%; vertical-align: top;}
 .content{font-size: 12pt; color: #575757;}
 .footer {cursor: default;position: absolute; margin-top: -50px;padding: 0; font-family: helvetica, sans-serif; font-weight: lighter;font-size: 10pt; color: grey; width:100%; text-align: center;}
@@ -69,8 +68,8 @@ body{position: relative; height: 100%;}
 #idk{margin-top:-80px;}
 #cover2{height: 130px; width: 100%; background-attachment: fixed; background-image: url("../assets/cover2.jpg");}
 #name2{padding-top: 34px;}
-#menu1{border-bottom: 1px solid #CCC;}
-#menu2{margin-top: -12px; border-bottom: 1px solid #CCC; background-color: #FFF;}
+#menu1{border-bottom: 1px solid #CCC;background-color: #FFF;}
+#menu2{margin-top: -17px; background-color: #000;   color: #FFF;}
 #menume{  opacity: 50%;height: auto; width: 80%; margin-left: auto; margin-right: auto; margin-bottom: 30pt;}
 #profpic{margin-bottom: 5px; margin-left: 50px;width: 80%;}
 #sunset{background-image: url("../assets/bk1.jpg"); height: 330px}
@@ -86,7 +85,7 @@ body{position: relative; height: 100%;}
 #particles-js{
   width: 100%;
   height: 1630px;
-  background-color: #EFEFEF;
+  background-color: #111;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -107,6 +106,7 @@ body{position: relative; height: 100%;}
   font-family: helvetica;
 }
 .skills{
+  background-color: #FFF;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
