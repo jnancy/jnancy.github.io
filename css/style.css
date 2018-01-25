@@ -102,7 +102,7 @@ body{position: relative; height: 100%;}
   background-image: url("../assets/bk1.jpg");
   background-attachment: fixed;
   background-size: cover;
-  height: 40px;
+  height: 200px;
   background-repeat: no-repeat;
   font-family: helvetica;
 }
