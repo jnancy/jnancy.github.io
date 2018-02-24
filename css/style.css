@@ -87,6 +87,7 @@ body{position: relative; height: 100%;}
   padding: none;
   margin: none;
   height: 1650px;
+  margin: 0;
   background-color: #252525;
   background-size: cover;
   background-position: 50% 50%;

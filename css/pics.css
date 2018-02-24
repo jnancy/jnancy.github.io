@@ -1,12 +1,12 @@
 #columns {
   background-color: transparent;
-  column-width: 450px;
+  column-width: 350px;
   column-gap: 15px;
   width: 90%;
   max-width: 1000px;
   margin: 20px auto;
   margin-top: -1605px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 div#columns figure {
   background: #DDD;
